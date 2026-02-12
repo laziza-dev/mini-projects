@@ -1,0 +1,29 @@
+body{
+    font-size: 7rem;
+    margin: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: hsla(0, 44%, 62%, 0.684);
+}
+.choices{
+    font-size: 11rem;
+    display: inline-block;
+    padding: 30px 30px;
+    border-radius: 200px;
+    background-color: hsla(339, 52%, 90%, 0.878);
+}
+button{
+    width: 250px;
+    height: 120px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(143, 75, 75);
+    border: none;
+    border-radius: 100px;
+    transition: background-color 0.5s ease;
+}
+button:hover{
+    background-color:  rgb(112, 59, 59);;
+}
